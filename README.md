@@ -16,7 +16,8 @@
 * сайт сверстан по макету из Figma.
 
 
-* [Ссылка на страницу проекта](https://www.figma.com/file/OyRWEjU6wBwRe1hapzQoLx/Sprint-3%3A-Russia-%2F-desktop-%2B-mobile?node-id=28503%3A0)
+**Итоговый вид страницы:**
+[Ссылка на страницу проекта](https://aleksandra-shevchenko.github.io/russian-travel/index.html)
 
 
 **Figma**
