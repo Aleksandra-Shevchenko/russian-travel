@@ -1,0 +1,17 @@
+.places__text {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.63;
+}
+
+@media screen and (max-width: 1023px) {
+  .places__text {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width:424px) {
+  .places__text {
+    padding: 0 16px;
+  }
+}
