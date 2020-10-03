@@ -2,7 +2,6 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   grid-template-rows: repeat(3,  minmax(213px, 1fr));
-  min-height: 671px;
   gap: 16px;
   padding: 96px 48px 0;
 }
