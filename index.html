@@ -123,19 +123,29 @@
       <section class="video page__center">
         <h2 class="content__title">В&nbsp;глубины Земли и&nbsp;в&nbsp;дальний космос</h2>
         <p class="content__subtitle">Видео от студии Stereotactic о местах в России, где ведутся фундаментальные исследования</p>
+
         <div class="video__container">
-          <a class="video__link video__link_pic_kamchatka" href="https://youtu.be/YK7w2bpaP7g" target="_blank">
-            <div class="video__icon-play"></div>
-            <p class="video__duration">6:30</p>
-            <h3 class="video__title" lang="en">Colors of Kamchatka</h3>
-            <p class="video__subtitle" lang="en">Director: Pavel Karykhalin</p>
-          </a>
-          <a class="video__link video__link_pic_observatory" href="#" target="_blank">
-            <div class="video__icon-play"></div>
-            <p class="video__duration">24:45</p>
-            <h3 class="video__title">Обсерватория | Observatory</h3>
-            <p class="video__subtitle" lang="en">Director: Alexander Khudokon</p>
-          </a>
+          <div class="video__iframe">
+            <iframe class="video__media" src="https://www.youtube.com/embed/YK7w2bpaP7g"></iframe>
+            <div class="video__overlay video__overlay_pic_kamchatka">
+              <button class="video__play" type="button" aria-label="Запустить видео"></button>
+              <div class="video__preview">
+                <p class="video__duration">6:30</p>
+                <h3 class="video__title" lang="en">Colors of Kamchatka</h3>
+                <p class="video__subtitle" lang="en">Director: Pavel Karykhalin</p>
+              </div>
+            </div>
+          </div>
+          <div class="video__iframe">
+            <iframe class="video__media" src="https://www.youtube.com/embed/YK7w2bpaP7g"></iframe>
+            <div class="video__overlay video__overlay_pic_observatory">
+              <button class="video__play" type="button" aria-label="Запустить видео"></button>
+              <div class="video__preview">
+                <p class="video__duration">24:45</p>
+                <h3 class="video__title" lang="en">Обсерватория | Observatory</h3>
+                <p class="video__subtitle" lang="en">Director: Alexander Khudokon</p>
+              </div>
+            </div>
         </div>
       </section>
 
@@ -162,6 +172,7 @@
 
 
   </div>
+  <script scr="video.js"></script>
 </body>
 
 </html>
