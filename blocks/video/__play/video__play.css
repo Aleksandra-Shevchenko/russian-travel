@@ -1,0 +1,36 @@
+.video__play {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  background-image: url("../../../images/icon_play.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: transparent;
+  width: 41px;
+  height: 41px;
+  border: none;
+  z-index: 2;
+  transition: transform .3s ease-in;
+  padding: 0;
+}
+
+
+.video__play:hover {
+  transform: scale(1.2 , 1.2);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1023px) {
+  .video__play {
+    top: 24px;
+    left: 24px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .video__play {
+    top: 16px;
+    left: 16px;
+  }
+}

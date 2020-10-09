@@ -1,0 +1,19 @@
+.video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 102px 48px 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .video {
+   padding: 95px 24px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .video {
+    padding: 64px 16px 0;
+   }
+}

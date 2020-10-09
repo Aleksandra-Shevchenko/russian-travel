@@ -15,9 +15,19 @@
 * media queries для задания правил для разных размеров экранов,
 * сайт сверстан по макету из Figma.
 
+**Доработка проекта:**
+* Дополнительно сверстаны два блока из усложненного макета и адаптированы.
+* Подключено дополнительное начертание шрифта.
+P.S. Блок video пока не запускается с кнопки Play, т.к. изучение JS по программе дальше.
+
+**Планы по улучшению проекта:**
+* Проверить и при необходимости отредактирвоать все блоки на новых точках перелома в соответствии с усложненным макетом.
+
 
 **Итоговый вид страницы:**
 [Ссылка на страницу проекта](https://aleksandra-shevchenko.github.io/russian-travel/index.html)
 
 
-**Figma:**[Ссылка на макет в Figma](https://www.figma.com/file/OyRWEjU6wBwRe1hapzQoLx/Sprint-3%3A-Russia-%2F-desktop-%2B-mobile?node-id=28503%3A0)
+**Figma:**
+* [Ссылка на базовый макет в Figma](https://www.figma.com/file/OyRWEjU6wBwRe1hapzQoLx/Sprint-3%3A-Russia-%2F-desktop-%2B-mobile?node-id=28503%3A0),
+* [Ссылка на усложненный макет в Figma](https://www.figma.com/file/Hm6H3wKMoGwrB0P83XlV9a/veles?node-id=1%3A5)

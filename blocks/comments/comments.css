@@ -1,0 +1,25 @@
+.comments {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 102px 48px;
+}
+
+@media screen and (max-width: 1023px) {
+  .comments {
+    padding: 102px 0 91px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .comments {
+    padding: 64px 16px 48px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .comments {
+    padding: 64px 16px;
+  }
+}

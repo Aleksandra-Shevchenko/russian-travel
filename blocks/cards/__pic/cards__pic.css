@@ -1,0 +1,18 @@
+.cards__pic {
+  border-radius: 50%;
+  max-width: 97px;
+  margin-bottom: 42px;
+}
+
+@media screen and (max-width: 1023px) {
+  .cards__pic {
+    order: 1;
+    margin-bottom: 16px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .cards__pic {
+    max-width: 96px;
+  }
+}

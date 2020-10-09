@@ -126,27 +126,51 @@
 
         <div class="video__container">
           <div class="video__iframe">
-            <iframe class="video__media" src="https://www.youtube.com/embed/YK7w2bpaP7g"></iframe>
-            <div class="video__overlay video__overlay_pic_kamchatka">
-              <button class="video__play" type="button" aria-label="Запустить видео"></button>
+            <iframe class="video__media" src="https://player.vimeo.com/video/81106671" data-ready="true" allow="autoplay; fullscreen" allowfullscreen></iframe>
+            <button class="video__play" type="button" aria-label="Запустить видео"></button>
+            <a class="video__overlay video__overlay_pic_kamchatka" href="https://player.vimeo.com/video/81106671" target="_blank">
               <div class="video__preview">
                 <p class="video__duration">6:30</p>
                 <h3 class="video__title" lang="en">Colors of Kamchatka</h3>
                 <p class="video__subtitle" lang="en">Director: Pavel Karykhalin</p>
               </div>
-            </div>
+            </a>
           </div>
           <div class="video__iframe">
-            <iframe class="video__media" src="https://www.youtube.com/embed/YK7w2bpaP7g"></iframe>
-            <div class="video__overlay video__overlay_pic_observatory">
-              <button class="video__play" type="button" aria-label="Запустить видео"></button>
+            <iframe class="video__media" src="https://player.vimeo.com/video/290675450" allowfullscreen></iframe>
+            <button class="video__play" type="button" aria-label="Запустить видео"></button>
+            <a class="video__overlay video__overlay_pic_observatory" href="https://player.vimeo.com/video/290675450" target="_blank">
               <div class="video__preview">
                 <p class="video__duration">24:45</p>
                 <h3 class="video__title" lang="en">Обсерватория | Observatory</h3>
                 <p class="video__subtitle" lang="en">Director: Alexander Khudokon</p>
               </div>
-            </div>
+            </a>
+          </div>
         </div>
+      </section>
+
+      <section class="comments page__center">
+        <h2 class="content__title">Фотографы, снимающие Россию</h2>
+        <p class="content__subtitle">Природа и люди вдохновили их работы, удостоенные наград на международных конкурсах</p>
+        <ul class="cards">
+          <li class="cards__item">
+            <img class="cards__pic" src="./images/lyagushkin.jpg" alt="Фото-портрет Виктора Лягушкина">
+            <blockquote class="cards__quote">&laquo;Если вам кажется, что в&nbsp;России ничего не&nbsp;происходит, то&nbsp;просто выгляньте &bdquo;наружу&ldquo;...&raquo;</blockquote>
+            <p class="cards__quote-author">Виктор Лягушкин</p>
+          </li>
+          <li class="cards__item">
+            <img class="cards__pic" src="./images/hafizov.jpg" alt="Фото-портрет Ивана Хафизова">
+            <blockquote class="cards__quote">«Если в город едут туристы — неважно за чем они туда едут: за шамбалой или фрески Рублева искать, или на родину Тарковского — туристы обеспечивают любой город молодёжью, рабочими местами и в конечном счёте наполняют его жизнью.»</blockquote>
+            <p class="cards__quote-author">Иван Хафизов</p>
+          </li>
+          <li class="cards__item">
+            <img class="cards__pic" src="./images/maksimshin.jpg" alt="Фото-портрет Сергея Максимишина">
+            <blockquote class="cards__quote">&laquo;Ты&nbsp;приезжаешь, и&nbsp;люди рассказывают тебе, как им&nbsp;плохо. А&nbsp;когда ты&nbsp;покажешь, как им&nbsp;плохо, то&nbsp;ты&nbsp;сволочь и&nbsp;всё очернил.&raquo;</blockquote>
+            <p class="cards__quote-author">Сергей Максимишин</p>
+          </li>
+        </ul>
+
       </section>
 
       <section class="cover page__center">
@@ -172,7 +196,6 @@
 
 
   </div>
-  <script scr="video.js"></script>
 </body>
 
 </html>
